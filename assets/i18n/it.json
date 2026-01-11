@@ -51,6 +51,68 @@
     "videoText": "Guarda il Video",
     "videoLink": "assets/videos/About-vid.mp4"
   },
+  "aboutPro": {
+    "header": {
+      "title": "Ponte Marka"
+    },
+
+    "accordion": {
+      "corporateIdentity": {
+        "title": "La Nostra Identità Aziendale",
+        "subtitle": "Ponte Marka: Oltre il Commercio.. Un Ponte di Conoscenza e Tecnologia",
+        "description": "Ponte Marka S.R.L. è una startup innovativa pionieristica (Hub Innovativo) nata dalla ricerca accademica per ridefinire il commercio globale dei prodotti agroalimentari di alta qualità tra la Tanzania e l'Italia. Non forniamo semplici \"commodities\", ma offriamo \"asset tecnologici supportati da narrazioni scientifiche\".",
+        "vision": {
+          "title": "La Nostra Visione:",
+          "text": "Diventare il principale punto di riferimento europeo per collegare l'eccellenza agricola africana agli standard industriali italiani attraverso la \"Knowledge Economy\"."
+        },
+        "mission": {
+          "title": "La Nostra Missione:",
+          "text": "Garantire i più alti livelli di trasparenza e qualità integrando la tecnologia Blockchain e la ricerca accademica in una filiera completa \"dal campo alla tavola\"."
+        }
+      },
+
+      "leadership": {
+        "title": "Leadership Team: La Sinergia tra Scienza e Operatività",
+        "intro": "La nostra legittimità legale e il nostro status innovativo derivano dalla sinergia unica tra i fondatori, dove la \"precisione scientifica\" incontra l'\"esperienza operativa transfrontaliera\".",
+
+        "drAhmedSherif": {
+          "name": "Dott. Ahmed Sherif",
+          "role": "Fondatore e CEO",
+          "quote": "Un ponte di saggezza tra ricerca, integrità doganale e mercati globali",
+          "status": "Personale Altamente Qualificato",
+          "features": [
+            "Eccellenza accademica d’élite: Doppio Dottorato presso Sapienza Roma e Udine/Trieste",
+            "Integrità istituzionale: Interprete per la Dogana Italiana",
+            "Garanzia legale: Interprete giurato presso i tribunali italiani"
+          ],
+          "profileLink": "https://air.uniud.it/cris/rp/rp47979",
+          "profileText": "Profilo LinkedIn"
+        },
+
+        "ahmedShehata": {
+          "name": "Sig. Ahmed Shehata",
+          "role": "Membro del Consiglio e Consulente Strategico",
+          "quote": "Il motore dell'approvvigionamento etico e dell'intelligenza della supply chain in Africa",
+          "status": "Braccio Esecutivo",
+          "features": [
+            "Leadership sul campo: oltre 15 anni di esperienza in Africa, Responsabile filiale Tanzania",
+            "Business Intelligence: Marketing certificato Cambridge",
+            "Tracciabilità Blockchain: sistemi digitali a livello di azienda agricola"
+          ]
+        }
+      },
+
+      "identitySynthesis": {
+        "title": "Sintesi dell’Identità: Una Sinfonia di Innovazione",
+        "quote": "In Ponte Marka, la scienza incontra l’azione e la competenza incontra l’applicazione. La mente che progetta il valore tecnologico e nutraceutico del prodotto si allinea con la mano esperta che ne garantisce l’eccellenza dal cuore dell’Africa."
+      }
+    },
+
+    "image": {
+      "alt": "Chi è Ponte Marka",
+      "badge": "Innovation Hub"
+    }
+  },
 
   "certifications": {
     "title": "Certificazioni",

@@ -51,6 +51,68 @@
     "videoText": "Watch Video",
     "videoLink": "assets/videos/About-vid.mp4"
   },
+  "aboutPro": {
+    "header": {
+      "title": "Ponte Marka"
+    },
+
+    "accordion": {
+      "corporateIdentity": {
+        "title": "Our Corporate Identity",
+        "subtitle": "Ponte Marka: Beyond Trade.. A Knowledge-Tech Bridge",
+        "description": "Ponte Marka S.R.L. is a pioneering Innovative Startup (Hub Innovativo) born from academic research to redefine global trade in premium agri-food products between Tanzania and Italy. We don't just deliver \"commodities\"; we provide \"technological assets backed by scientific narratives.\"",
+        "vision": {
+          "title": "Our Vision:",
+          "text": "To become Europe's premier reference for connecting African agricultural excellence with Italian industrial standards through the \"Knowledge Economy.\""
+        },
+        "mission": {
+          "title": "Our Mission:",
+          "text": "To ensure the highest levels of transparency and quality by integrating Blockchain technology and academic research into a \"Farm-to-Fork\" supply chain."
+        }
+      },
+
+      "leadership": {
+        "title": "Leadership Team: The Synergy of Science and Operations",
+        "intro": "Our legal legitimacy and innovative status stem from the unique synergy between our founders, where \"Scientific Precision\" meets \"Cross-Border Field Expertise.\"",
+
+        "drAhmedSherif": {
+          "name": "Dr. Ahmed Sherif",
+          "role": "Founder & CEO",
+          "quote": "A Wisdom Bridge between Research, Customs Integrity, and Global Markets",
+          "status": "Personnel Highly Qualified",
+          "features": [
+            "Elite Academic Excellence: Double PhD Sapienza Rome & Udine/Trieste",
+            "Institutional Integrity: Italian Customs interpreter",
+            "Legal Guarantee: Sworn Interpreter Italian Courts"
+          ],
+          "profileLink": "https://air.uniud.it/cris/rp/rp47979",
+          "profileText": "LinkedIn Profile"
+        },
+
+        "ahmedShehata": {
+          "name": "Sig. Ahmed Shehata",
+          "role": "Board Member & Strategic Advisor",
+          "quote": "The Engine of Ethical Sourcing and Supply Chain Intelligence in Africa",
+          "status": "Executive Arm",
+          "features": [
+            "Field Leadership: 15+ years Africa, Tanzania Branch Manager",
+            "Business Intelligence: Cambridge-certified Marketing",
+            "Blockchain Traceability: Farm-level digital systems"
+          ]
+        }
+      },
+
+      "identitySynthesis": {
+        "title": "Identity Synthesis: A Symphony of Innovation",
+        "quote": "At Ponte Marka, science meets action and expertise meets application. The mind that designs the technological and nutraceutical value of the product aligns with the expert hand that ensures its excellence from the heart of Africa."
+      }
+    },
+
+    "image": {
+      "alt": "About Ponte Marka",
+      "badge": "Innovation Hub"
+    }
+  },
 
   "certifications": {
     "title": "Certifications",
