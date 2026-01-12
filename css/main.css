@@ -3276,3 +3276,202 @@ html[dir="rtl"] .pdf-track {
     object-fit: cover;
   }
 }
+/* ===== Global Accordion Direction ===== */
+.accordion-item-pro {
+  direction: ltr; /* افتراضي */
+  text-align: left;
+}
+
+html[dir="rtl"] .accordion-item-pro {
+  direction: rtl;
+  text-align: right;
+}
+
+.accordion-item-pro h5,
+.accordion-item-pro p,
+.accordion-item-pro span,
+.accordion-item-pro button {
+  direction: ltr;
+  text-align: left;
+}
+
+html[dir="rtl"] .accordion-item-pro h5,
+html[dir="rtl"] .accordion-item-pro p,
+html[dir="rtl"] .accordion-item-pro span,
+html[dir="rtl"] .accordion-item-pro button {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+/* Icons */
+.accordion-item-pro .icon-pro {
+  margin-right: 0.75rem;
+  margin-left: 0;
+}
+
+html[dir="rtl"] .accordion-item-pro .icon-pro {
+  margin-left: 0.75rem;
+  margin-right: 0;
+}
+
+/* Bootstrap accordion button fix */
+html[dir="rtl"] .accordion-item-pro .accordion-button-pro {
+  justify-content: flex-start;
+}
+/* ==================== Default English (LTR) ==================== */
+.accordion-item-pro,
+.leadership-card,
+.leadership-card .flex-grow-1,
+.leadership-card .feature-item,
+.leadership-card .btn-pro-sm {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Icons in LTR */
+.accordion-item-pro .icon-pro,
+.leadership-card .leadership-avatar i {
+  margin-right: 0.75rem;
+  margin-left: 0;
+}
+
+/* ==================== Arabic (RTL) ==================== */
+html[dir="rtl"] .accordion-item-pro,
+html[dir="rtl"] .leadership-card,
+html[dir="rtl"] .leadership-card .flex-grow-1,
+html[dir="rtl"] .leadership-card .feature-item,
+html[dir="rtl"] .leadership-card .btn-pro-sm {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+/* Icons in RTL */
+html[dir="rtl"] .accordion-item-pro .icon-pro,
+html[dir="rtl"] .leadership-card .leadership-avatar i {
+  margin-left: 0.75rem;
+  margin-right: 0;
+}
+
+/* Accordion button fix for Bootstrap */
+html[dir="rtl"] .accordion-item-pro .accordion-button-pro {
+  justify-content: flex-start;
+  text-align: right !important;
+}
+/* ==================== Default English (LTR) ==================== */
+.accordion-item-pro,
+.leadership-card,
+.leadership-card .flex-grow-1,
+.leadership-card .feature-item,
+.leadership-card .btn-pro-sm,
+.accordion-body-pro.blockquote-pro {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Icons spacing in LTR */
+.accordion-item-pro .icon-pro,
+.leadership-card .leadership-avatar i {
+  margin-right: 0.75rem;
+  margin-left: 0;
+}
+
+/* ==================== Arabic (RTL) ==================== */
+html[dir="rtl"] .accordion-item-pro,
+html[dir="rtl"] .leadership-card,
+html[dir="rtl"] .leadership-card .flex-grow-1,
+html[dir="rtl"] .leadership-card .feature-item,
+html[dir="rtl"] .leadership-card .btn-pro-sm,
+html[dir="rtl"] .accordion-body-pro.blockquote-pro {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+/* Icons spacing in RTL */
+html[dir="rtl"] .accordion-item-pro .icon-pro,
+html[dir="rtl"] .leadership-card .leadership-avatar i {
+  margin-left: 0.75rem;
+  margin-right: 0;
+}
+
+/* Accordion button fix for Bootstrap */
+html[dir="rtl"] .accordion-item-pro .accordion-button-pro {
+  justify-content: flex-start;
+  text-align: right !important;
+}
+/* ==================== Default English (LTR) ==================== */
+#rnd-bootstrap,
+#rnd-bootstrap h2,
+#rnd-bootstrap h3,
+#rnd-bootstrap h4,
+#rnd-bootstrap h5,
+#rnd-bootstrap p,
+#rnd-bootstrap .badge,
+#rnd-bootstrap .lead,
+#rnd-bootstrap .card-body,
+#rnd-bootstrap .feature-item,
+#rnd-bootstrap .tab-btn,
+#rnd-bootstrap .timeline-content {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Icons spacing in LTR */
+#rnd-bootstrap .icon-circle i,
+#rnd-bootstrap .feature-item i,
+#rnd-bootstrap .tab-btn i,
+#rnd-bootstrap .timeline-icon i {
+  margin-right: 0.75rem;
+  margin-left: 0;
+}
+
+/* Cards & Flex alignment */
+#rnd-bootstrap .card-body.d-flex {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Tabs buttons LTR */
+#rnd-bootstrap .tab-btn {
+  justify-content: flex-start;
+}
+
+/* ==================== Arabic (RTL) ==================== */
+html[dir="rtl"] #rnd-bootstrap,
+html[dir="rtl"] #rnd-bootstrap h2,
+html[dir="rtl"] #rnd-bootstrap h3,
+html[dir="rtl"] #rnd-bootstrap h4,
+html[dir="rtl"] #rnd-bootstrap h5,
+html[dir="rtl"] #rnd-bootstrap p,
+html[dir="rtl"] #rnd-bootstrap .badge,
+html[dir="rtl"] #rnd-bootstrap .lead,
+html[dir="rtl"] #rnd-bootstrap .card-body,
+html[dir="rtl"] #rnd-bootstrap .feature-item,
+html[dir="rtl"] #rnd-bootstrap .tab-btn,
+html[dir="rtl"] #rnd-bootstrap .timeline-content {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+/* Icons spacing in RTL */
+html[dir="rtl"] #rnd-bootstrap .icon-circle i,
+html[dir="rtl"] #rnd-bootstrap .feature-item i,
+html[dir="rtl"] #rnd-bootstrap .tab-btn i,
+html[dir="rtl"] #rnd-bootstrap .timeline-icon i {
+  margin-left: 0.75rem;
+  margin-right: 0;
+}
+
+/* Cards & Flex alignment RTL */
+html[dir="rtl"] #rnd-bootstrap .card-body.d-flex {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Tabs buttons RTL */
+html[dir="rtl"] #rnd-bootstrap .tab-btn {
+  justify-content: flex-end;
+}

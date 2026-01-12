@@ -60,15 +60,7 @@
       "corporateIdentity": {
         "title": "La Nostra Identità Aziendale",
         "subtitle": "Ponte Marka: Oltre il Commercio.. Un Ponte di Conoscenza e Tecnologia",
-        "description": "Ponte Marka S.R.L. è una startup innovativa pionieristica (Hub Innovativo) nata dalla ricerca accademica per ridefinire il commercio globale dei prodotti agroalimentari di alta qualità tra la Tanzania e l'Italia. Non forniamo semplici \"commodities\", ma offriamo \"asset tecnologici supportati da narrazioni scientifiche\".",
-        "vision": {
-          "title": "La Nostra Visione:",
-          "text": "Diventare il principale punto di riferimento europeo per collegare l'eccellenza agricola africana agli standard industriali italiani attraverso la \"Knowledge Economy\"."
-        },
-        "mission": {
-          "title": "La Nostra Missione:",
-          "text": "Garantire i più alti livelli di trasparenza e qualità integrando la tecnologia Blockchain e la ricerca accademica in una filiera completa \"dal campo alla tavola\"."
-        }
+        "description": "Ponte Marka S.R.L. è una startup innovativa pionieristica (Hub Innovativo) nata dalla ricerca accademica per ridefinire il commercio globale dei prodotti agroalimentari di alta qualità tra la Tanzania e l'Italia. Non forniamo semplici \"commodities\", ma offriamo \"asset tecnologici supportati da narrazioni scientifiche\"."
       },
 
       "leadership": {
@@ -85,7 +77,7 @@
             "Integrità istituzionale: Interprete per la Dogana Italiana",
             "Garanzia legale: Interprete giurato presso i tribunali italiani"
           ],
-          "profileLink": "https://air.uniud.it/cris/rp/rp47979",
+          "profileLink": "https://www.linkedin.com/in/ahmed-s-715993a1",
           "profileText": "Profilo LinkedIn"
         },
 
@@ -289,6 +281,189 @@
     },
     "credits": {
       "developedBy": "Sviluppato da"
+    }
+  },
+  "rnd": {
+    "badge": "Eccellenza Ricerca & Sviluppo",
+    "mainTitle": "Ricerca e Innovazione",
+    "mainDesc": "Trasformazione del business, leadership nel settore Ho.Re.Ca, governance digitale delle filiere etiche.",
+    "cards": {
+      "card1": {
+        "title": "Trasformazione del Business",
+        "desc": "Servizi high-tech che combinano IT, ricerca agricola e farmaceutica.",
+        "icon": "bi-lightbulb-fill text-warning fs-1"
+      },
+      "card2": {
+        "title": "Leadership Ho.Re.Ca",
+        "desc": "\"Passaporto Digitale del Prodotto\" per pasticcerie e gelaterie di alta gamma.",
+        "icon": "bi-trophy-fill text-primary fs-1"
+      },
+      "card3": {
+        "title": "Governance Digitale",
+        "desc": "Tracciamento che garantisce trasparenza e prezzi equi per gli agricoltori.",
+        "icon": "bi-shield-lock-fill text-success fs-1"
+      }
+    },
+    "tabs": {
+      "social": {
+        "title": "Scopo Sociale Innovativo",
+        "features": {
+          "feature1": {
+            "icon": "bi-link-45deg text-success",
+            "desc": "Digitalizzazione della filiera: controllo qualità via blockchain"
+          },
+          "feature2": {
+            "icon": "bi-mortarboard-fill text-success",
+            "desc": "Innovazione Educativa: narrazione scientifica affidabile"
+          },
+          "feature3": {
+            "icon": "bi-graph-up-arrow text-success",
+            "desc": "Logistica predittiva: riduzione sprechi tramite AI"
+          }
+        }
+      },
+      "technical": {
+        "title": "Componenti Tecnologiche",
+        "features": {
+          "feature1": {
+            "icon": "bi-geo-alt-fill text-primary",
+            "desc": "Mappatura agricola: GPS & conformità EUDR"
+          },
+          "feature2": {
+            "icon": "bi-qr-code-scan text-primary",
+            "desc": "QR Code dinamico: dati raccolto immutabili"
+          },
+          "feature3": {
+            "icon": "bi-file-earmark-text text-primary",
+            "desc": "Smart Contracts: pagamenti istantanei agli agricoltori"
+          },
+          "feature4": {
+            "icon": "bi-cpu text-primary",
+            "desc": "AI integrata: previsione durata conservazione"
+          }
+        }
+      }
+    },
+
+    "accordion": {
+      "cashew": {
+        "title": "Anacardi Tanzaniani - \"Oro Bianco Innovativo\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutico",
+            "desc": "Acidi grassi insaturi (79,7%) riducono il rischio di CHD."
+          },
+          "scientific": {
+            "label": "Scientifico",
+            "desc": "Umidità 8-10% previene le micotossine."
+          },
+          "economic": {
+            "label": "Economico",
+            "desc": "+28% valore aggiunto, supporta 500.000 agricoltori."
+          },
+          "refs": {
+            "label": "Riferimenti",
+            "desc": "Ramadhani 2014, Rico 2016, TCNB 2024/25."
+          }
+        }
+      },
+      "cardamom": {
+        "title": "Cardamomo Tanzaniano - \"Regina delle Spezie Funzionali\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutico",
+            "desc": "1,8-cineolo & α-terpinil acetato."
+          },
+          "scientific": {
+            "label": "Scientifico",
+            "desc": "Benefici per la salute cardiovascolare."
+          },
+          "economic": {
+            "label": "Economico",
+            "desc": "Crescita annua 5,6% fino al 2034."
+          }
+        }
+      },
+      "ginger": {
+        "title": "Zenzero Tanzaniano - \"Il Naturale Anti-infiammatorio\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutico",
+            "desc": "Ricco di 6-shogaol, attività biologica superiore rispetto ai gingeroli."
+          },
+          "scientific": {
+            "label": "Scientifico",
+            "desc": "Tecniche di essiccazione moderne aumentano lo shogaol, migliorando capacità antiossidanti e antitumorali."
+          },
+          "economic": {
+            "label": "Economico",
+            "desc": "Aumento della domanda italiana di zenzero biologico certificato per la prevenzione sanitaria."
+          },
+          "refs": {
+            "label": "Riferimenti",
+            "desc": "Tarfaoui 2022, Sahul Hamid 2023."
+          }
+        }
+      },
+      "clove": {
+        "title": "Chiodi di Garofano di Zanzibar - \"Leader nella Valorizzazione Fenolica\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutico",
+            "desc": "Fonte più ricca di Eugenolo (fino all'89%), antibatterico e antifungino."
+          },
+          "scientific": {
+            "label": "Scientifico",
+            "desc": "UDSM conferma che i boccioli di Zanzibar sono superiori per patogeni alimentari."
+          },
+          "economic": {
+            "label": "Economico",
+            "desc": "Sblocca mercati premium \"Food-as-Medicine\" in UE."
+          },
+          "refs": {
+            "label": "Riferimenti",
+            "desc": "Razafimamonjison 2014, Batiha 2020."
+          }
+        }
+      },
+      "blackpepper": {
+        "title": "Pepe Nero Tanzaniano - \"Il Miglioratore della Biodisponibilità\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutico",
+            "desc": "Piperina (2–9%), migliora l'assorbimento di nutrienti e farmaci."
+          },
+          "scientific": {
+            "label": "Scientifico",
+            "desc": "Agisce come catalizzatore per ferro, selenio e vitamine; potenziale gestione obesità."
+          },
+          "economic": {
+            "label": "Economico",
+            "desc": "Mercato globale 6,4B$ entro il 2033; focus UE su \"Clean Label\"."
+          },
+          "refs": {
+            "label": "Riferimenti",
+            "desc": "Srinivasan 2007, Gorgani 2016."
+          }
+        }
+      }
+    },
+    "timeline": {
+      "phase1": {
+        "title": "Fase 1",
+        "desc": "Conoscenza accademica d'élite + Blockchain 4.0",
+        "iconColor": "bg-gradient-success"
+      },
+      "phase2": {
+        "title": "Fase 2",
+        "desc": "Proprietà intellettuale: sistemi di tracciamento smart",
+        "iconColor": "bg-gradient-primary"
+      },
+      "phase3": {
+        "title": "Fase 3",
+        "desc": "Finanziamento UE e leadership mercato italiano",
+        "iconColor": "bg-gradient-warning"
+      }
     }
   }
 }

@@ -144,12 +144,22 @@ function changeLang(lang) {
         const keyAttr = el.getAttribute("data-i18n");
         let keys = keyAttr.replace("[placeholder]", "").split(".");
         let text = data;
-        keys.forEach((k) => (text = text?.[k] ?? ""));
-        if (keyAttr.startsWith("[placeholder]")) {
-          el.setAttribute("placeholder", text);
-        } else {
-          el.innerText = text;
+        keys.forEach((k) => {
+          if (text && k in text) {
+            text = text[k];
+          } else {
+            text = null;
+          }
+        });
+
+        if (text !== null && text !== undefined && text !== "") {
+          if (keyAttr.startsWith("[placeholder]")) {
+            el.setAttribute("placeholder", text);
+          } else {
+            el.innerText = text;
+          }
         }
+        // لو الترجمة مش موجودة → سيب النص الأصلي زي ما هو
       });
     })
     .catch((err) => console.error("Error loading language JSON:", err));
@@ -382,3 +392,6 @@ async function generateThumbnail(pdfUrl) {
 }
 
 document.addEventListener("DOMContentLoaded", loadAllPDFs);
+
+////////////////////////////////////////////////////
+// ////////////////////

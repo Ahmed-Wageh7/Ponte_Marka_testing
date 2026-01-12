@@ -60,15 +60,7 @@
       "corporateIdentity": {
         "title": "Our Corporate Identity",
         "subtitle": "Ponte Marka: Beyond Trade.. A Knowledge-Tech Bridge",
-        "description": "Ponte Marka S.R.L. is a pioneering Innovative Startup (Hub Innovativo) born from academic research to redefine global trade in premium agri-food products between Tanzania and Italy. We don't just deliver \"commodities\"; we provide \"technological assets backed by scientific narratives.\"",
-        "vision": {
-          "title": "Our Vision:",
-          "text": "To become Europe's premier reference for connecting African agricultural excellence with Italian industrial standards through the \"Knowledge Economy.\""
-        },
-        "mission": {
-          "title": "Our Mission:",
-          "text": "To ensure the highest levels of transparency and quality by integrating Blockchain technology and academic research into a \"Farm-to-Fork\" supply chain."
-        }
+        "description": "Ponte Marka S.R.L. is a pioneering Innovative Startup (Hub Innovativo) born from academic research to redefine global trade in premium agri-food products between Tanzania and Italy. We don't just deliver \"commodities\"; we provide \"technological assets backed by scientific narratives.\""
       },
 
       "leadership": {
@@ -85,7 +77,7 @@
             "Institutional Integrity: Italian Customs interpreter",
             "Legal Guarantee: Sworn Interpreter Italian Courts"
           ],
-          "profileLink": "https://air.uniud.it/cris/rp/rp47979",
+          "profileLink": "https://www.linkedin.com/in/ahmed-s-715993a1",
           "profileText": "LinkedIn Profile"
         },
 
@@ -287,6 +279,180 @@
 
     "credits": {
       "developedBy": "Developed by"
+    }
+  },
+
+  "rnd": {
+    "badge": "R&D Excellence",
+    "mainTitle": "Research & Innovation",
+    "mainDesc": "Transforming business, leading Ho.Re.Ca sector, digital governance for ethical supply chains.",
+    "cards": {
+      "card1": {
+        "title": "Business Transformation",
+        "desc": "High-tech services merging IT with agricultural & pharmaceutical research."
+      },
+      "card2": {
+        "title": "Ho.Re.Ca Leadership",
+        "desc": "\"Digital Product Passport\" for premium pastry & gelato shops."
+      },
+      "card3": {
+        "title": "Digital Governance",
+        "desc": "Traceability ensuring transparency & fair pricing for farmers."
+      }
+    },
+    "tabs": {
+      "social": {
+        "title": "Innovative Social Purpose",
+        "features": {
+          "feature1": {
+            "icon": "bi-link-45deg text-success",
+            "desc": "Supply Chain Digitalization: Blockchain quality control"
+          },
+          "feature2": {
+            "icon": "bi-mortarboard-fill text-success",
+            "desc": "Educational Innovation: Scientific Storytelling"
+          },
+          "feature3": {
+            "icon": "bi-graph-up-arrow text-success",
+            "desc": "Predictive Logistics: AI waste reduction"
+          }
+        }
+      },
+      "technical": {
+        "title": "Technical Components",
+        "features": {
+          "feature1": {
+            "desc": "Farm Mapping: GPS & EUDR compliance"
+          },
+          "feature2": {
+            "desc": "Dynamic QR: Immutable harvest data"
+          },
+          "feature3": {
+            "desc": "Smart Contracts: Instant farmer payments"
+          },
+          "feature4": {
+            "desc": "AI Integration: Shelf-life prediction"
+          }
+        }
+      }
+    },
+
+    "accordion": {
+      "cashew": {
+        "title": "Tanzanian Cashew - \"Innovative White Gold\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutical",
+            "desc": "Unsaturated fatty acids (79.7%) reduce CHD risks."
+          },
+          "scientific": {
+            "label": "Scientific",
+            "desc": "Moisture 8-10% prevents mycotoxins."
+          },
+          "economic": {
+            "label": "Economic",
+            "desc": "+28% value-added, supports 500K farmers."
+          },
+          "refs": {
+            "label": "Refs",
+            "desc": "Ramadhani 2014, Rico 2016, TCNB 2024/25."
+          }
+        }
+      },
+      "cardamom": {
+        "title": "Tanzanian Cardamom - \"Queen of Functional Spices\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutical",
+            "desc": "1,8-cineole & α-terpinyl acetate."
+          },
+          "scientific": {
+            "label": "Scientific",
+            "desc": "Cardiovascular health benefits."
+          },
+          "economic": {
+            "label": "Economic",
+            "desc": "5.6% annual growth to 2034."
+          }
+        }
+      },
+      "ginger": {
+        "title": "Tanzanian Ginger - \"The Natural Anti-inflammatory\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutical",
+            "desc": "Rich in 6-shogaol, higher biological activity vs gingerols."
+          },
+          "scientific": {
+            "label": "Scientific",
+            "desc": "Modern drying tech enhances shogaol, boosting antioxidant & anti-tumor capabilities."
+          },
+          "economic": {
+            "label": "Economic",
+            "desc": "Rising Italian demand for certified organic ginger in preventive healthcare."
+          },
+          "refs": {
+            "label": "Refs",
+            "desc": "Tarfaoui 2022, Sahul Hamid 2023."
+          }
+        }
+      },
+      "clove": {
+        "title": "Zanzibar Clove - \"Phenolic Valorization Leader\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutical",
+            "desc": "Richest Eugenol source (up to 89%), antibacterial & antifungal."
+          },
+          "scientific": {
+            "label": "Scientific",
+            "desc": "UDSM confirms Zanzibar buds superior for foodborne pathogens."
+          },
+          "economic": {
+            "label": "Economic",
+            "desc": "Unlocks premium \"Food-as-Medicine\" EU markets."
+          },
+          "refs": {
+            "label": "Refs",
+            "desc": "Razafimamonjison 2014, Batiha 2020."
+          }
+        }
+      },
+      "blackpepper": {
+        "title": "Tanzanian Black Pepper - \"The Bioavailability Enhancer\"",
+        "details": {
+          "nutraceutical": {
+            "label": "Nutraceutical",
+            "desc": "Piperine (2–9%), enhances absorption of nutrients & drugs."
+          },
+          "scientific": {
+            "label": "Scientific",
+            "desc": "Acts as absorption catalyst for iron, selenium & vitamins; obesity management potential."
+          },
+          "economic": {
+            "label": "Economic",
+            "desc": "Global market $6.4B by 2033; EU focus on \"Clean Label\"."
+          },
+          "refs": { "label": "Refs", "desc": "Srinivasan 2007, Gorgani 2016." }
+        }
+      }
+    },
+    "timeline": {
+      "phase1": {
+        "title": "Phase 1",
+        "desc": "Elite Academic Knowledge + Blockchain 4.0",
+        "iconColor": "bg-gradient-success"
+      },
+      "phase2": {
+        "title": "Phase 2",
+        "desc": "IP Holder: Patent Smart Traceability Systems",
+        "iconColor": "bg-gradient-primary"
+      },
+      "phase3": {
+        "title": "Phase 3",
+        "desc": "European Funding & Italian Market Leadership",
+        "iconColor": "bg-gradient-warning"
+      }
     }
   }
 }
