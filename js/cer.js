@@ -5,6 +5,8 @@ let certImages = [];
 let currentCertIndex = 0;
 let galleryImages = [];
 let currentGalleryIndex = 0;
+let langData = {};
+let currentLang = localStorage.getItem("selectedLang") || "ar";
 
 /*********************************************************
  * DOM ELEMENTS
@@ -21,6 +23,38 @@ const dom = {
   certCounter: document.getElementById("certCounter"),
   galleryCounter: document.getElementById("galleryCounter"),
 };
+
+/*********************************************************
+ * LOAD LANGUAGE
+ *********************************************************/
+async function loadLanguage(lang) {
+  try {
+    const res = await fetch(`lang/${lang}.json`);
+    langData = await res.json();
+
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+
+    applyI18n();
+  } catch (err) {
+    console.error("Language load error:", err);
+  }
+}
+
+function applyI18n() {
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const key = el.getAttribute("data-i18n");
+    if (!key) return;
+
+    const keys = key.split(".");
+    let text = langData;
+    for (let k of keys) {
+      if (text && k in text) text = text[k];
+      else text = null;
+    }
+    if (text !== null && text !== undefined) el.textContent = text;
+  });
+}
 
 /*********************************************************
  * PARTICLES
@@ -84,8 +118,7 @@ function openCertModal(index) {
   const modalEl = document.getElementById("certModal");
   if (!modalEl) return;
 
-  const modal = new bootstrap.Modal(modalEl);
-  modal.show();
+  new bootstrap.Modal(modalEl).show();
   dom.topBar?.classList.add("hidden");
 }
 
@@ -105,41 +138,6 @@ window.certPrevImage = () => {
   currentCertIndex =
     (currentCertIndex - 1 + certImages.length) % certImages.length;
   updateCertModal();
-};
-
-/*********************************************************
- * GALLERY MODAL
- *********************************************************/
-document.querySelectorAll(".gallery-item").forEach((item) => {
-  item.addEventListener("click", () => {
-    const grid = item.closest(".gallery-grid");
-    galleryImages = [...grid.querySelectorAll("img")].map((i) => i.src);
-    currentGalleryIndex = galleryImages.indexOf(item.querySelector("img").src);
-    updateGalleryModal();
-
-    const modalEl = document.getElementById("galleryModal");
-    if (!modalEl) return;
-    new bootstrap.Modal(modalEl).show();
-    dom.topBar?.classList.add("hidden");
-  });
-});
-
-function updateGalleryModal() {
-  if (!dom.galleryModalImage) return;
-  dom.galleryModalImage.src = galleryImages[currentGalleryIndex];
-  if (dom.galleryCounter)
-    dom.galleryCounter.textContent = `${currentGalleryIndex + 1} / ${galleryImages.length}`;
-}
-
-window.galleryNextImage = () => {
-  currentGalleryIndex = (currentGalleryIndex + 1) % galleryImages.length;
-  updateGalleryModal();
-};
-
-window.galleryPrevImage = () => {
-  currentGalleryIndex =
-    (currentGalleryIndex - 1 + galleryImages.length) % galleryImages.length;
-  updateGalleryModal();
 };
 
 /*********************************************************
@@ -196,21 +194,22 @@ window.addEventListener("resize", () => {
 /*********************************************************
  * INIT
  *********************************************************/
-window.addEventListener("load", () => {
+window.addEventListener("load", async () => {
+  await loadLanguage(currentLang); // هنا بنخلي اللغة متوافقة مع الموقع الأساسي
   createParticles();
   buildCollage();
 });
+
 // إضافة تحكم بالكيبورد
 window.addEventListener("keydown", (e) => {
   const modalEl = document.getElementById("certModal");
-  if (!modalEl.classList.contains("show")) return; // يشتغل بس لو المودال مفتوح
+  if (!modalEl.classList.contains("show")) return;
 
   if (e.key === "ArrowRight") {
     certNextImage();
   } else if (e.key === "ArrowLeft") {
     certPrevImage();
   } else if (e.key === "Escape") {
-    // إغلاق المودال بزر ESC
     bootstrap.Modal.getInstance(modalEl)?.hide();
   }
 });

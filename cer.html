@@ -22,14 +22,6 @@
   </head>
 
   <body>
-    <!-- Loading Screen
-    <div class="loading-screen" id="loadingScreen">
-      <div class="logo-spin">
-        <i class="fas fa-crown"></i>
-      </div>
-      <p style="margin-top: 20px; color: var(--gold)">جاري التحميل...</p>
-    </div> -->
-
     <!-- Background Particles -->
     <div class="particles" id="particles"></div>
 
@@ -41,7 +33,6 @@
         data-i18n="nav.back"
       >
         <i class="fas fa-arrow-left"></i>
-        Back
       </button>
 
       <div style="display: flex; gap: 12px">
@@ -51,14 +42,13 @@
           data-i18n="nav.certificates"
         >
           <i class="fas fa-award"></i>
-          Certificates
         </button>
         <button
           class="toggle-btn btn-nav"
           id="galleryToggle"
-          data-i18n="nav.Gallery"
+          data-i18n="nav.gallery"
         >
-          <i class="fas fa-images"></i> Gallery
+          <i class="fas fa-images"></i>
         </button>
       </div>
     </nav>
@@ -69,16 +59,9 @@
       <section id="certSection" class="section active">
         <div class="cert-hero">
           <div class="hero-text">
-            <h1 class="hero-title" data-i18n="hero.item1.title">
-              Our Certificates & Professional Accreditations
-            </h1>
+            <h1 class="hero-title" data-i18n="hero.item1.title"></h1>
             <div class="hero-divider"></div>
-            <p class="hero-desc" data-i18n="hero.item1.desc">
-              Hand-picked Tanzanian cloves known for their strong aroma and rich
-              essential oils. Perfect for food processing, herbal blends, and
-              pharmaceutical use due to their high oil content and consistent
-              quality.
-            </p>
+            <p class="hero-desc" data-i18n="hero.item1.desc"></p>
           </div>
 
           <div class="collage-wrapper">
@@ -91,25 +74,16 @@
       <section id="gallerySection" class="section">
         <div class="gallery-container">
           <div class="gallery-header">
-            <h1 class="gallery-title" data-i18n="gallery.title">
-              Innovation and Sustainability
-            </h1>
-            <p class="gallery-subtitle" data-i18n="gallery.subtitle">
-              From Tanzania to Italy
-            </p>
+            <h1 class="gallery-title" data-i18n="gallery.title"></h1>
+            <p class="gallery-subtitle" data-i18n="gallery.subtitle"></p>
           </div>
 
           <!-- Event 1 -->
           <div class="event">
             <div class="event-header">
-              <h2 class="event-title" data-i18n="even1.title">
-                Ponte Marka @ SIGEP World
-              </h2>
-              <p class="event-date" data-i18n="even1.date">
-                Rimini, Italia | 16-20 Gennaio 2026
-              </p>
+              <h2 class="event-title" data-i18n="gallery.event1.title"></h2>
+              <p class="event-date" data-i18n="gallery.event1.date"></p>
             </div>
-
             <div class="gallery-grid">
               <div class="gallery-item">
                 <img src="images/SIGEP-photos/1.webp" loading="lazy" />
@@ -147,14 +121,9 @@
           <!-- Event 2 -->
           <div class="event">
             <div class="event-header">
-              <h2 class="event-title" data-i18n="event2.title">
-                Ponte Marka @ Grüne Woche
-              </h2>
-              <p class="event-date" data-i18n="event2.date">
-                Berlin, Germany | 16-25 January 2026
-              </p>
+              <h2 class="event-title" data-i18n="gallery.event2.title"></h2>
+              <p class="event-date" data-i18n="gallery.event2.date"></p>
             </div>
-
             <div class="gallery-grid">
               <div class="gallery-item">
                 <img src="images/photos_berlin/2.webp" loading="lazy" />
@@ -189,14 +158,9 @@
           <!-- Event 3 -->
           <div class="event">
             <div class="event-header">
-              <h2 class="event-title" data-i18n="event3.title">
-                Ponte Marka @ Marca by BolognaFiere
-              </h2>
-              <p class="event-date" data-i18n="event3.date">
-                Bologna, Italy | 14-15 January 2026
-              </p>
+              <h2 class="event-title" data-i18n="gallery.event3.title"></h2>
+              <p class="event-date" data-i18n="gallery.event3.date"></p>
             </div>
-
             <div class="gallery-grid">
               <div class="gallery-item">
                 <img src="images/photos_bongolia/1.webp" loading="lazy" />
@@ -230,7 +194,7 @@
         </div>
       </section>
     </main>
-    <!-- Certificate Modal -->
+
     <!-- Certificate Modal -->
     <div class="modal fade" id="certModal" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen">
@@ -256,12 +220,12 @@
           </button>
           <!-- Image -->
           <img id="certModalImage" class="modal-img" src="" alt="Certificate" />
-
           <!-- Counter -->
           <div class="modal-counter" id="certCounter"></div>
         </div>
       </div>
     </div>
+
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script defer src="js/cer.js"></script>
