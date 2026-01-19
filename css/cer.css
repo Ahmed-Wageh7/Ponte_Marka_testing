@@ -35,39 +35,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Loading Screen */
-.loading-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--dark-green);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  transition: opacity 0.5s ease;
-}
-
-.loading-screen.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.logo-spin {
-  font-size: 4rem;
-  color: var(--gold);
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /* Particles */
 .particles {
   position: fixed;
@@ -242,7 +209,7 @@ body {
 .hero-desc {
   font-size: 1.2rem;
   line-height: 1.8;
-  color: var(--text-muted);
+  color: var(--text-light); /* بدّل النص للون واضح */
   max-width: 480px;
   margin: 0 auto;
 }
@@ -310,13 +277,15 @@ body {
   font-size: clamp(2.8rem, 6vw, 4.5rem);
   font-weight: 800;
   background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
 
 .gallery-subtitle {
   font-size: 1.3rem;
-  color: var(--text-muted);
+  color: var(--text-light);
 }
 
 .event {
@@ -346,6 +315,7 @@ body {
   backdrop-filter: blur(10px);
 }
 
+/* Gallery Grid */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -415,6 +385,7 @@ body {
   left: 40px;
   transform: translateY(-50%);
 }
+
 .modal-next {
   right: 40px;
   transform: translateY(-50%);
@@ -488,4 +459,27 @@ body {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+}
+/* زر الإغلاق في المودال */
+#certModal .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 50; /* أعلى من الصورة */
+  font-size: 2rem;
+  color: var(--gold);
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#certModal .btn-close:hover {
+  background: rgba(212, 175, 55, 0.8);
 }
